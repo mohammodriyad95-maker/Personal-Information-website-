@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Your Name - Web Developer building clean, mobile-friendly websites.">
+  <title>Ahmed Riyad | Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== navigation area===== -->
+  <header class="nav-bar">
+    <a href="#home" class="brand"> Ahmed <span> Riyad </span></a>
+
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-btn" aria-label="Open menu"></label>
+
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== hero area ===== -->
+    <section id="home" class="hero">
+      <div class="container hero-box">
+        <div class="hero-text">
+          <p class="hello">Hello, I'm</p>
+          <h1>Ahmed Riyad</h1>
+          <h2>Web Developer</h2>
+          <p class="intro">
+            I build clean, fast and mobile-friendly websites for small businesses and personal brands.
+          </p>
+          <div class="hero-buttons">
+            <a class="btn" href="#projects">View My Work</a>
+            <!-- নিচের নম্বরে দেশের কোডসহ আপনার নম্বর দিন, + বা 0 ছাড়া -->
+            <a class="btn btn-outline" href="https://wa.me/966539043601" target="_blank" rel="noopener">WhatsApp Me</a>
+          </div>
+        </div>
+
+        <!-- নিজের ছবি দিতে চাইলে নিচের div মুছে লিখুন: <img class="avatar" src="me.jpg" alt="Your Name"> -->
+      
+        <img class="avatar" src="me.jpg" alt="Ahmed Riyad" />
+      </div>
+    </section>
+
+    <!-- ===== about section for persona information l===== -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <p class="section-sub">A little about who I am and what I know</p>
+
+        <p class="about-text">
+          I am a web developer who loves turning ideas into simple, good-looking websites.
+          I design every page to look great on phones, tablets and computers.
+          I am always learning new things and improving my work with every project.
+        </p>
+
+        <div class="chips">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>Flexbox &amp; Grid</span>
+          <span>Responsive Design</span>
+          <span>Git &amp; GitHub</span>
+          <span>Netlify</span>
+          <span>JavaScript (learning)</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== service section===== -->
+    <section id="services" class="alt">
+      <div class="container">
+        <h2 class="section-title">My <span>Services</span></h2>
+        <p class="section-sub">What I can build for you</p>
+
+        <div class="cards">
+          <div class="card">
+            <div class="icon">&#128188;</div>
+            <h3>Business Website</h3>
+            <p>A professional website that presents your business and builds trust.</p>
+          </div>
+          <div class="card">
+            <div class="icon">&#128640;</div>
+            <h3>Landing Page</h3>
+            <p>A focused one-page site to promote a product, course or offer.</p>
+          </div>
+          <div class="card">
+            <div class="icon">&#128100;</div>
+            <h3>Portfolio Site</h3>
+            <p>A personal website that shows your work and skills in the best way.</p>
+          </div>
+          <div class="card">
+            <div class="icon">&#128241;</div>
+            <h3>Mobile Friendly</h3>
+            <p>Every site works smoothly on any phone, tablet or computer.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== projects section===== -->
+    <section id="projects">
+      <div class="container">
+        <h2 class="section-title">My <span>Projects</span></h2>
+        <p class="section-sub">Some of my recent work</p>
+
+        <div class="cards">
+          
+          <div class="card project">
+            <div class="project-thumb">M</div>
+            <div class="project-body">
+              <h3>Multiple Page Website</h3>
+              <p>A multi-page site with home, blog, videos, about and contact pages.</p>
+              <a class="link" href="https://multiple-page-website-22.netlify.app" target="_blank" rel="noopener">Live Demo &rarr;</a>
+            </div>
+          </div>
+
+          <div class="card project">
+            <div class="project-thumb thumb-2">F</div>
+            <div class="project-body">
+              <h3>Business Landing Website</h3>
+              <p>A one-page website with services, pricing, testimonials and contact form.</p>
+              <a class="link" href="https://first-webaite11111.netlify.app" target="_blank" rel="noopener">Live Demo &rarr;</a>
+            </div>
+          </div>
+
+          <div class="card project">
+            <div class="project-thumb thumb-3">+</div>
+            <div class="project-body">
+              <h3>Your Next Project</h3>
+              <p>Coming soon. Contact me and let's build your website together.</p>
+              <a class="link" href="#contact">Hire Me &rarr;</a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== contact section===== -->
+    <section id="contact" class="alt">
+      <div class="container">
+        <h2 class="section-title">Contact <span>Me</span></h2>
+        <p class="section-sub">Have a project in mind? Send me a message</p>
+
+        <div class="contact-box">
+          <div class="contact-info">
+            <h3>Let's talk</h3>
+            <p><strong>Email:</strong> mohammodriyad95@gmail.com</p>
+            <p><strong>WhatsApp:</strong> +966 053 904 3601</p>
+            <p><strong>Location:</strong> sylhet, Bangladesh</p>
+            <a class="btn" href="https://wa.me/966539043601" target="_blank" rel="noopener">Chat on WhatsApp</a>
+          </div>
+
+          <!-- Netlify-তে ডেপ্লয় করলে ফর্মের মেসেজ Netlify ড্যাশবোর্ডে আসবে -->
+          <form class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contact">
+            <p class="hidden-field"><label>Do not fill this: <input name="bot-field"></label></p>
+
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write your message" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== footee section ===== -->
+  <footer>
+    <p>&copy; 2026 Your Name. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
