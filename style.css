@@ -265,6 +265,9 @@ section.alt{
 .project-thumb.thumb-4{
   background: linear-gradient(135deg, #2BD322, #1E43A7);
 }
+.project-thumb.thumb-5{
+  background: linear-gradient(135deg, #4E6D4D, #758FD5);
+}
 .project-body{
   padding: 22px 24px 26px 24px;
 }
